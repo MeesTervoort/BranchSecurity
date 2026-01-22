@@ -1,2 +1,2 @@
 # BranchSecurity
-join if you are gay XD
+join if you are a nigger XD
