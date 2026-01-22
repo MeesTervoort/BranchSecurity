@@ -1,11 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Onze Groep</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .members {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .member {
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 8px;
+            width: 180px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
+
+<header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#over">Over ons</a>
+        <a href="#projecten">Projecten</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Welkom op onze website</h1>
+    <p>Wij zijn een groep van 5 en dit is onze HTML-opdracht.</p>
+</section>
+
+<section id="over">
+    <h2>Over ons</h2>
+    <div class="members">
+        <div class="member">
+            <h3>Persoon 1</h3>
+            <p>Hobby: Programmeren</p>
+        </div>
+        <div class="member">
+            <h3>Persoon 2</h3>
+            <p>Hobby: Design</p>
+        </div>
+        <div class="member">
+            <h3>Persoon 3</h3>
+            <p>Hobby: Gamen</p>
+        </div>
+        <div class="member">
+            <h3>Persoon 4</h3>
+            <p>Hobby: Sport</p>
+        </div>
+        <div class="member">
+            <h3>Persoon 5</h3>
+            <p>Hobby: Muziek</p>
+        </div>
+    </div>
+</section>
+
+<section id="projecten">
+    <h2>Onze projecten</h2>
+    <ul>
+        <li>Website maken met HTML</li>
+        <li>CSS leren</li>
+        <li>Samenwerken in een groep</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form>
+        <label>Naam:</label><br>
+        <input type="text"><br><br>
+
+        <label>E-mail:</label><br>
+        <input type="email"><br><br>
+
+        <label>Bericht:</label><br>
+        <textarea rows="4"></textarea><br><br>
+
+        <button type="submit">Versturen</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Onze Groep</p>
+</footer>
+
 </body>
 </html>
