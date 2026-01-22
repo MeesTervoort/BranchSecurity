@@ -1,2 +1,2 @@
 # BranchSecurity
-join if you are a nigger XD
+join if you are a FEMBOY XD
