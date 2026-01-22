@@ -1,2 +1,2 @@
 # BranchSecurity
-join if you are a FEMBOY XD
+join if you like simone budde XD
